@@ -57,7 +57,7 @@ a {
 
 .block {
     box-shadow: 1px 0px 50px 20px rgba(0, 0, 0, 0.8);
-    background-image: url(/1.jpg);
+    background-image: url('../1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 30%;
