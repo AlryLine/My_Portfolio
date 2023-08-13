@@ -1,0 +1,229 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Portfolio/Img/notebook-closeup-photo-css-javascript-and-html-usage-monitor-closeup-of-function-source-code-abstract-it-technology-background-software-source-code_372999-629.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    margin: 0% 25%;
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: groove;
+    border-left: groove;
+    border-right: groove;
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    padding: 2%;
+}
+
+.words1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: groove;
+    border-right: groove;
+    text-align: left;
+    font-size: larger;
+    width: 100%;
+    padding: 1% 5% 1% 5%;
+}
+
+.words2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: groove;
+    border-right: groove;
+    border-bottom: groove;
+    text-align: left;
+    font-size: larger;
+    width: 100%;
+    padding: 1% 5% 1% 5%;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    background: rgba(89, 39, 122, 0.5);
+    border-radius: 20%;
+}
+
+.block {
+    box-shadow: 1px 0px 50px 20px rgba(0, 0, 0, 0.8);
+    background-image: url(/Portfolio/Img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 30%;
+    color: aliceblue;
+}
+
+.block1 {
+    box-shadow: 1px 0px 50px 20px rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(to left,  rgba(104, 34, 158, 0.8), rgba(214, 197, 46, 0.8));
+    margin: 1% 0%;
+    padding: 2% 5% 2% 5%;
+    font-size: large;
+    border-style: groove;
+}
+
+.block2 {
+    box-shadow: 1px 0px 50px 20px rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(to left,  rgba(104, 34, 158, 0.8), rgba(214, 197, 46, 0.8));
+    margin: 1% 0%;
+    padding: 3% 5% 3% 5%;
+    font-size: large;
+    border-style: groove;
+}
+
+.block3 {
+    box-shadow: 1px 0px 50px 20px rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(to left,  rgba(104, 34, 158, 0.8), rgba(214, 197, 46, 0.8));
+    margin: 1% 0%;
+    padding: 3% 5% 3% 5%;
+    font-size: large;
+    border-style: groove;
+}
+
+.block4 {
+    box-shadow: 1px 0px 50px 20px rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(to left,  rgba(104, 34, 158, 0.8), rgba(214, 197, 46, 0.8));
+    margin: 1% 0%;
+    padding: 4% 5% 4% 5%;
+    font-size: large;
+    border-style: groove;
+}
+
+.block5 {
+    box-shadow: 1px 0px 50px 20px rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(to left,  rgba(104, 34, 158, 0.8), rgba(214, 197, 46, 0.8));
+    margin: 1% 0%;
+    padding: 2% 5% 2% 5%;
+    font-size: large;
+    border-style: groove;
+}
+
+@media (max-width: 979px) {
+    .container {
+        width: 70%;
+        margin: 0% 15%;
+    }
+
+    .words1 {
+        padding: 5% 5% 2% 5%;
+    }
+    
+    .words2 {
+        padding: 1% 5% 5% 5%;
+    }
+
+    .block1 {
+        padding: 4% 5% 4% 5%;
+    }
+
+    .block2 {
+        padding: 5% 5% 5% 5%;
+    }
+
+    .block3 {
+        padding: 5% 5% 5% 5%;
+    }
+
+    .block4 {
+        padding: 4% 5% 4% 5%;
+    }
+
+    .block5 {
+        padding: 5% 5% 5% 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 80%;
+        margin: 0% 10%;
+    }
+
+    .words1 {
+        padding: 5% 5% 2% 5%;
+    }
+    
+    .words2 {
+        padding: 1% 5% 5% 5%;
+    }
+
+    .block1 {
+        padding: 5% 5% 5% 5%;
+        font-size: larger;
+    }
+
+    .block2 {
+        padding: 6% 5% 6% 5%;
+        font-size: larger;
+    }
+
+    .block3 {
+        padding: 6% 5% 6% 5%;
+        font-size: larger;
+    }
+
+    .block4 {
+        padding: 5% 5% 5% 5%;
+        font-size: larger;
+    }
+
+    .block5 {
+        padding: 6% 5% 6% 5%;
+        font-size: larger;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        margin: 0% 5%;
+    }
+
+    h2 {
+        padding: 2% 2% 5% 2%;
+    }
+
+    .words1 {
+        padding: 5% 5% 5% 5%;
+    }
+    
+    .words2 {
+        padding: 1% 5% 5% 5%;
+    }
+
+    .block1 {
+        padding: 6% 5% 6% 5%;
+        font-size: larger;
+    }
+
+    .block2 {
+        padding: 8% 5% 8% 5%;
+        font-size: larger;
+    }
+
+    .block3 {
+        padding: 8% 5% 8% 5%;
+        font-size: larger;
+    }
+
+    .block4 {
+        padding: 5% 5% 5% 5%;
+        font-size: larger;
+    }
+
+    .block5 {
+        padding: 6% 5% 6% 5%;
+        font-size: larger;
+    }
+}
