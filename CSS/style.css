@@ -3,8 +3,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(https://img.freepik.com/premium-photo/notebook-closeup-photo-css-javascript-and-html-usage-monitor-closeup-of-function-source-code-abstract-it-technology-background-software-source-code_372999-629.jpg);
+html {
+    background-image: url(/notebook-closeup-photo-css-javascript-and-html-usage-monitor-closeup-of-function-source-code-abstract-it-technology-background-software-source-code_372999-629.avif);
     background-size: cover;
     background-repeat: no-repeat;
     height: 130vh;
