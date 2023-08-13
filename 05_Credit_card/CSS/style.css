@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(/05_Credit_card/Img/1642446974_1-phonoteka-org-p-zelenii-perlamutrovii-fon-krasivo-1.jpg);
+    background-image: url('../Img/1642446974_1-phonoteka-org-p-zelenii-perlamutrovii-fon-krasivo-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -51,7 +51,7 @@ body {
 
 .card {
     background-color: rgb(140, 180, 180);
-    background-image: url(/05_Credit_card/Img/moon_flag.png);
+    background-image: url('../Img/moon_flag.png');
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: right;

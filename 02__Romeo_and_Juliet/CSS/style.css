@@ -1,7 +1,7 @@
 body {
     margin: 10px 10px;
     background-color: rgb(218, 210, 186);
-    background-image: url(/02__Romeo_and_Juliet/Img/1618892072_22-phonoteka_org-p-fon-dlya-prezentatsii-klassitsizm-25.jpg);
+    background-image: url('../Img/1618892072_22-phonoteka_org-p-fon-dlya-prezentatsii-klassitsizm-25.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

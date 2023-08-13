@@ -5,7 +5,7 @@
 body {
     background-color: rgb(231, 231, 212);
     box-sizing: border-box;
-    background-image: url(/02_Play_Cards/Img/1645221990_1-phonoteka-org-p-kartochnii-stol-fon-1.jpg);
+    background-image: url('../Img/1645221990_1-phonoteka-org-p-kartochnii-stol-fon-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

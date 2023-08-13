@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/03_My_to_do_list/Img/1651869226_13-pibig-info-p-oboi-dlya-rabochego-stola-derevo-krasivo-13.jpg);
+    background-image: url('../Img/1651869226_13-pibig-info-p-oboi-dlya-rabochego-stola-derevo-krasivo-13.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

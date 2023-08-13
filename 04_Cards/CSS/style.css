@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(/04_Cards/Img/76b58d2c0edfadc2d4f569a973db25ad.jpeg);
+    background-image: url('../Img/76b58d2c0edfadc2d4f569a973db25ad.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

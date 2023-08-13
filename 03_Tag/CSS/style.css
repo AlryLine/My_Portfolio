@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body {
-    background-image: url(/03_Tag/Img/1615816388_56-p-fon-khaitek-70.jpg);
+    background-image: url('../Img/1615816388_56-p-fon-khaitek-70.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 130vh;
