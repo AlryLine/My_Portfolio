@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="block">
+        <form class="card" id="card_form" action="">
+            <h2><b>CREDIT CARD DETAILS</b></h2>
+            <div class="block1">
+                <label class="card_l" for="card_number">Card Number</label>
+                <input class="card_i" type="text" id="card_number" name="card_number" placeholder="XXXX XXXX XXXX XXXX" pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" required>
+            </div>
+            <div class="block2">
+                <label class="name_l" for="name">Name and Surname On Card</label>
+                <input class="name_i" type="text" id="name" name="name" placeholder="Name Surname" pattern="[А-ЩЬЮЯҐЄІЇа-щьюяґєії\s]+" required>
+            </div>
+            <div class="block3">
+                <div class="block4">
+                    <label class="date_l" for="date">Expiry Date</label>
+                    <label class="cvv_l" for="cvv">CVV/CVN</label>
+                </div>
+                <div class="block5">
+                    <input class="mm_i" type="text" name="date" id="date" pattern="(0[1-9]|1[0-2])" placeholder="MM" required>
+                    <input class="yy_i" type="text" name="date" id="date" pattern="[0-9]{2}" placeholder="YY" required>
+                    <input class="cvv_i" type="password" name="cvv" id="cvv" pattern="[0-9]{3}" placeholder="XXX" required>
+                </div>     
+            </div>
+            <div class="block6">
+                <label class="btn_l" for="btn"><b>Send my information:</b></label>
+                <button class="btn" type="submit" form="card_form">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

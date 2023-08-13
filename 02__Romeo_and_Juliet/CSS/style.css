@@ -1,0 +1,58 @@
+body {
+    margin: 10px 10px;
+    background-color: rgb(218, 210, 186);
+    background-image: url(/02__Romeo_and_Juliet/Img/1618892072_22-phonoteka_org-p-fon-dlya-prezentatsii-klassitsizm-25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 30px;
+    padding: 10px;
+    color: rgb(111, 62, 156);
+    text-align: center;
+}
+
+h4 {
+    color: rgb(34, 92, 168);
+}
+
+.block1 {
+    background-color: rgb(224, 224, 178);
+    border-style: groove;
+    box-shadow: 0px 20px 20px 5px rgba(0, 0, 0, 0.8);
+    margin: 20px 300px;
+}
+
+.block2, .block3, .block4, .block5 {
+    margin: 10px 30px;
+    padding: 10px;
+}
+
+@media (max-width: 979px) {
+    body{
+        width: 100%;
+    }
+    .block1 {
+        margin: 2% 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    body{
+        width: 100%;
+    }
+    .block1 {
+        margin: 2% 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        width: 100%;
+    }
+    .block1 {
+        margin: 2% 15%;
+    }
+}
