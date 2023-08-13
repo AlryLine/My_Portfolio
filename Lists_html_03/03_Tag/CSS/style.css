@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-image: url(/Portfolio/Lists_html_03/03_Tag/Img/1615816388_56-p-fon-khaitek-70.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.block {
+    width: 80%;
+    height: 70%;
+    margin: 2% 10%;
+    padding: 2% 0% 5% 2%;
+    background-color: rgb(248, 237, 226, 0.7);
+    box-shadow: 0px 20px 20px 5px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.trs {
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+dd {
+    padding: 0% 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gray {
+    color: gray;
+}
+
+@media (max-width: 979px) {
+   .block {
+        width: 80%;
+        height: 80%;
+   }
+}
+
+@media (max-width: 767px) {
+    .block {
+        width: 80%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .block {
+        width: 80%;
+        height: 100%;
+    }
+}
